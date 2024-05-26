@@ -1,8 +1,14 @@
+import Footer from "./Componants/NavbarFooter/Footer";
+import Navbar from "./Componants/NavbarFooter/Navbar";
+import Home from "./Pages/Home.jsx";
+
 function App() {
   return (
     <>
       <div>
-        <h2>jjjj</h2>
+        <Navbar></Navbar>
+        <Home></Home>
+        <Footer></Footer>
       </div>
     </>
   );
